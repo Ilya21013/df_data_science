@@ -4,7 +4,7 @@ count = 0
 
 while True:
     count+=1
-    predict_nimber = int(input("Угадай число от 1 до 100: "))
+    predict_nimber = int(input("Угадай число от 1 до 90: "))
 
     if predict_nimber > number:
         print("Число должно быть меньше!")
